@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#first-container {
+    background-color: #27aa80;
+}
+
+#top-menu-container {
+    margin-left: 600px;
+}
+
+#top-menu-container>a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f4ff61;
+    font-size: 30px;
+    padding: 8px;
+    border: 3px solid #f4ff61;
+    border-radius: 10px;
+}
+
+#top-menu-container>a:hover {
+    border: 3px solid #27aa80;
+    background-color: #f4ff61;
+    color: #27aa80;
+    border-radius: 10px;
+}
+
+#first-container>#top-menu-container {
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+}
+#second-container {
+    background-color: #f4ff61;
+    height: 300px;
+
+}
+
+#second-container>#img-2 {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    right: 1px;
+    border-radius: 2%;
+}
+
+#second-container>#heading {
+    padding-top: 50px;
+    font-size: 60px;
+    color: #27aa80;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    margin-left: 260px;
+}
+
+#second-container>p {
+    font-size: 40px;
+    color: #27aa80;
+    font-family: "Brush Script MT", cursive;
+    margin-top: 0;
+    margin-left: 450px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+
+#third-container {
+    margin-top: 10px;
+}
+
+#third-container>#img-3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#third-container>#para-1 {
+    font-size: 42px;
+    color: #27aa80;
+    text-align: center;
+    font-family: "Goudy Old Style";
+}
+
+#third-container>#para-2 {
+    text-align: center;
+    margin-left: 510px;
+    margin-right: 520px;
+    font-size: 22px;
+    color: #63707e;
+    font-weight: bold;
+    font-family: "Goudy Old Style";
+    letter-spacing: 1px;
+}
+
+#fourth-container>#para-3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 60px;
+    font-family: "Goudy Old Style";
+    color: #27aa80;
+}
+
+#fourth-container>#span-1 {
+    color: #27aa80;
+    font-family: "Goudy Old Style";
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    left: 550px;
+}
+
+#fourth-container>#img-4 {
+    margin-left: 300px;
+    height: 210px;
+}
+
+#fourth-container>#para-4 {
+    color: #63707e;
+    position: relative;
+    margin-top: -150px;
+    left: 550px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 110px;
+    font-family: "Goudy Old Style";
+}
+
+#fifth-container>#span-2 {
+    color: #27aa80;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Goudy Old Style";
+    margin-left: 330px;
+}
+
+#fifth-container>#para-5 {
+    color: #63707e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 330px;
+    font-family: "Goudy Old Style";
+    /* margin-top: 0px; */
+    letter-spacing: 1px;
+}
+
+#fifth-container>#img-5 {
+    height: 200px;
+    float: right;
+    margin-right: 326px;
+    margin-top: -150px;
+}
+
+#sixth-container>#para-6 {
+    font-size: 60px;
+    font-family: "Goudy Old Style";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+    color: #27aa80;
+}
+
+#sixth-container>#para-7 {
+    color: #27aa80;
+    font-family: "Goudy Old Style";
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sixth-container>#para-8 {
+    color: #63707e;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    font-family: "Goudy Old Style";
+    font-weight: bold;
+}
+
+#sixth-container>#para-9 {
+    background-color: #27aa80;
+    color: white;
+    font-size: 22px;
+    font-family: "Trebuchet MS";
+    padding-top: 6px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 570px;
+    border: 5px solid #27aa80;
+    border-radius: 6px;
+}
+
+#sixth-container>#para-9>a{
+    text-decoration: none;
+    color: white;
+}
+#seventh-container>#footer-style>#para-10 {
+    font-size: 18px;
+    font-family: Papyrus;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    color: #27aa80;
+    letter-spacing: 2px;
+}
+
+#seventh-container>#footer-style {
+    background-color: #f4ff61;
+    height: 100px;
+}
